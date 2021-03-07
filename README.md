@@ -10,7 +10,10 @@ Problems that were solved was insuring all links worked, the index.html followed
  I learnt how to trouble shoot issues when I could not get my page to deploy on github. 
 
 ## Usage
-[Screen shot of final product](Assets 2/Horiseon Screen Shot.png )
+
+```md
+    ![Screem shot of final product](Assets 2/Horiseon Screen Shot.png)
+    ```
 
 [Link to deployed application](https://harmane4.github.io/homework-1/ )
 
