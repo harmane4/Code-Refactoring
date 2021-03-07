@@ -23,3 +23,8 @@ Websites used to create application:
 [Indentation and Spacing in HTML](https://courses.cs.washington.edu/courses/cse154/17au/styleguide/html-css/spacing-indentation-html.html#:~:text=Spacing%20and%20indentation%20should%20be,inside%20of%20its%20parent%20tag.)
 
 [Horizontal nav bar](https://www.w3schools.com/css/css_navbar_horizontal.asp)
+
+[Alt tags](https://webaim.org/techniques/alttext/)
+
+[CSS Comments](https://sparkbox.com/foundry/lets_write_beautiful_css_comments)
+
