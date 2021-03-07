@@ -1,9 +1,11 @@
+
+/* All elements have a box sizing of border-box, padding & margin of 0  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Background color is light gren  */
+/* Background color is light green  */
 body {
     background-color: #d9dcd6;
 }
