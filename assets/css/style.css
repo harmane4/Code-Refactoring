@@ -9,8 +9,28 @@
 body {
     background-color: #d9dcd6;
 }
+/* Navigation bar is to the right  */
+nav{
+    float: right;
+    padding: 14px 16px;
+}
 
-/*Padding of header is 20px, font family is Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, background colour is dark blue and text colour is light red  */
+/* No bullet points for unordered list and text is centered in middle of container */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* List is dispplayed inline in the centre of the container */
+li {
+    display: inline;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+/* Padding of header is 20px, font family is Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, background colour is dark blue and text colour is light red  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
