@@ -3,17 +3,17 @@
     padding: 0;
     margin: 0;
 }
-/* Body element background color  */
+/* Body   */
 body {
     background-color: #d9dcd6;
 }
-/* Navigation bar styling  */
+/* Navigation bar  */
 nav{
     float: right;
     padding: 14px 16px;
 }
 
-/* Unordered list styling */
+/* Unordered list  */
 ul {
     list-style-type: none;
     margin: 0;
@@ -46,7 +46,7 @@ li {
     color: #d9dcd6;
 }
 
-/*Top and bottom padding 15px, left nad right margin thicken 20px, element floated to the right, font size 20px */
+/* Header div */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -55,29 +55,25 @@ li {
     font-size: 20px;
 }
 
-/* Does note have a list type */
 .header div ul {
     list-style-type: none;
 }
 
-/* The element generates a block element box that will be flowed with surrounding content as if it were a single inline box, left and right margin of 25px */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/*Font colour is white and has no text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Font size is 16px */
 p {
     font-size: 16px;
 }
 
-/*Content area has a max height of 800px, max width of 100px, resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges, image is centered */
+/* Main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -106,7 +102,7 @@ p {
     margin-left: 20px;
 }
 
-/*Class has a right margin thickness of 20px, padding thickness 20px, element is moved down to clear past both left and right floats, box floated to the right, width is 20% of the content, height is 100% of the content area, background colour is blue nad font family set to Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+/*Aside content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,26 +114,26 @@ p {
     background-color: #2589bd;
 }
 
-/*Class has a bottom margin with of 32px and text colour white */
+/*Aside content*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Heading element has a bottom margin thickness of 10px and text is centered */
+/*Aside headers 3*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Image has a disaply of block, margin thickness of 10px and cannot be wider than 150px*/
+/*Aside images*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Class has a bottom margin of 20px, padding thickness of 50px,heigh of content area is 300px, font family of Gill Sans, background colour of blue and text colour to white */
+/* Main content*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,18 +143,18 @@ p {
     color: #ffffff;
 }
 
-/* Image has maximum height of 200 px */
+/* Main content images */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/* Element has a margin at the bottom of 20px and font size of 36px*/
+/* Main content h2x*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Padding set to 30px, element must move below both floating elements that precede it, text is centered and has specific font family */
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -166,7 +162,7 @@ p {
     text-align: center;
 }
 
-/* Font size of footer 20px */
+/* Footer heading */
 .footer h4 {
     font-size: 20px;
 }
