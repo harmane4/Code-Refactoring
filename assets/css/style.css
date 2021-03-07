@@ -1,21 +1,19 @@
-
-/* All elements have a box sizing of border-box, padding & margin of 0  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Background color is light green  */
+/* Body element background color  */
 body {
     background-color: #d9dcd6;
 }
-/* Navigation bar is to the right  */
+/* Navigation bar styling  */
 nav{
     float: right;
     padding: 14px 16px;
 }
 
-/* No bullet points for unordered list and text is centered in middle of container */
+/* Unordered list styling */
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,14 +21,14 @@ ul {
     text-align: center;
 }
 
-/* List is dispplayed inline in the centre of the container */
+/* List styling */
 li {
     display: inline;
     padding: 14px 16px;
     text-align: center;
 }
 
-/* Padding of header is 20px, font family is Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, background colour is dark blue and text colour is light red  */
+/* Styling of header   */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,13 +36,12 @@ li {
     color: #ffffff;
 }
 
-/*Font size is 48 , The element generates a block element box that will be flowed with surrounding content as if it were a single inline box*/
+/*Styling of h1 header*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*Text colour is light green */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -90,13 +87,13 @@ p {
     background-position: center;
 }
 
-/*Box is floated to the left, with a left and right margin of 25px  */
+/*Image is the to left of the container  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/*Box is floated to the right, with a left and right margin thickness of 25px */
+/*Image is to the right of the container */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -122,84 +119,26 @@ p {
 }
 
 /*Class has a bottom margin with of 32px and text colour white */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Class has a bottom margin with of 32px and text colour white */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Class has a bottom margin with of 32px and text colour white */
-.benefit-cost {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* Heading element has a bottom margin thickness of 10px and text is centered */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Heading element has a bottom margin thickness of 10px and text is centered */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Heading element has a bottom margin thickness of 10px and text is centered */
-.benefit-cost h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Image has a disaply of block, margin thickness of 10px and cannot be wider than 150px*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Image has a disaply of block, margin thickness of 10px and cannot be wider than 150px*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Image has a disaply of block, margin thickness of 10px and cannot be wider than 150px*/
-.benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /* Class has a bottom margin of 20px, padding thickness of 50px,heigh of content area is 300px, font family of Gill Sans, background colour of blue and text colour to white */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Class has a bottom margin of 20px, padding thickness of 50px,heigh of content area is 300px, font family of Gill Sans, background colour of blue and text colour to white */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Class has a bottom margin of 20px, padding thickness of 50px,heigh of content area is 300px, font family of Gill Sans, background colour of blue and text colour to white */
-.social-media-marketing {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -209,34 +148,12 @@ p {
 }
 
 /* Image has maximum height of 200 px */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* Image has maximum height of 200 px */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Image has maximum height of 200 px */
-.social-media-marketing img {
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
 /* Element has a margin at the bottom of 20px and font size of 36px*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Element has a margin at the bottom of 20px and font size of 36px*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Element has a margin at the bottom of 20px and font size of 36px*/
-.social-media-marketing h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
