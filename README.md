@@ -29,3 +29,5 @@ Websites used to create application:
 
 [CSS Comments](https://sparkbox.com/foundry/lets_write_beautiful_css_comments)
 
+## License 
+[MIT](https://choosealicense.com/licenses/mit/)
