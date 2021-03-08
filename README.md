@@ -11,7 +11,7 @@ Problems that were solved was insuring all links worked, the index.html followed
 
 ## Usage
  
-![Screen-shot-of-final-product](./Assets 2/Horiseon-Screenshot.png)
+![Screen-shot-of-final-product](assets/images/Horiseon-Screenshot.png)
 
 [Link to deployed application](https://harmane4.github.io/homework-1/ )
 
